@@ -1,19 +1,15 @@
-/* Fuentes */
+/* Fonts */
 
 @font-face {
-    font-family: 'Dr.Marz';
-    src: url('fonts/Dr.Marz.otf') format('truetype'),
-        ('fonts/Dr.Marz_i.otf') format('truetype'),
-        ('fonts/Dr.Marz_bd.otf') format('truetype'),
-        ('fonts/Dr.Marz_bdi.otf') format('truetype');
+    font-family: 'Fireside DEMO';
+    src: url('fonts/Fireside DEMO.otf') format('truetype');
     font-style: normal;
     font-weight: normal;
-
 }
 
 @font-face {
-    font-family: 'FuturaHandwritten';
-    src: url('fonts/FuturaHandwritten.ttf') format('truetype');
+    font-family: 'celticmd';
+    src: url('fonts/celticmd.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
@@ -27,56 +23,77 @@ html {
 body {
     margin: 0%;
     padding: 0%;
-    min-height: 100vh;
+    min-height: 80vh;
+    max-height: 100vh;
+    min-width: 80vw;
     max-width: 100vw;
-    background-image: url("image/dragon.jpeg");
+    background-color: gray;
+    background-image: url("image/scroll1.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    color: black;
+    background-size: 100% 100%;
+    
+}
+/*Main - buttons - input */
+main {  
+    padding: 3%;
 }
 
 .box {
     width: 100%;
 }
 
-main {
-   
-    padding: 3%;
-
+#dices {
+    height: 8vh;
+    width: 8vw;
 }
 
-#dices {
+/*Section - dices */
+section {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    max-height: 85vh;
+    min-height: 70vh;
+    max-width: 85vw;
+    min-width: 70vw;  
+    background-image: url("image/circle.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 15% 35%; 
+    background-position: center;   
+}
+.dice6 {
     height: 10vh;
     width: 10vw;
 }
 
-.dice6 {
-    height: 15vh;
-    width: 15vw;
-}
-
 .dice20 {
-    height: 18vh;
-    width: 18vw;
+    height: 12vh;
+    width: 12vw;
 }
 
+#d6 {
+    transform: rotate(-5deg);
+}
+
+#d6_2, #d20 {
+    transform: rotate(5deg);
+}
 /*Footer*/
 #footerP {
     transform-origin: 0 0;
-    transform: translateY(3rem);
+    transform: translateY(2rem);
     position: relative;
+    font-family: "celticmd";
+    font-size:xx-large;
 }
 
 footer {
-    margin-top: 3%;
+    margin-top: 2%;
     position: fixed;
     left: 0;
     bottom: 0;
     height: 15%;
-    text-align: center;
-    background-image: url("image/paper.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    text-align: center; 
     
 }

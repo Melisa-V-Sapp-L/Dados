@@ -5,22 +5,22 @@ function roll() {
 
     switch (n) {
         case 1:
-            document.getElementById("image").innerHTML = '<img src="image/one.png" class="dice6"></img>';
+            document.getElementById("d6").innerHTML = '<img src="image/one.png" class="dice6"></img>';
             break;
         case 2:
-            document.getElementById("image").innerHTML = '<img src="image/2.png" class="dice6"></img>';
+            document.getElementById("d6").innerHTML = '<img src="image/2.png" class="dice6"></img>';
             break;
         case 3:
-            document.getElementById("image").innerHTML = '<img src="image/three.png" class="dice6"></img>';
+            document.getElementById("d6").innerHTML = '<img src="image/three.png" class="dice6"></img>';
             break;
         case 4:
-            document.getElementById("image").innerHTML = '<img src="image/4.png" class="dice6"></img>';
+            document.getElementById("d6").innerHTML = '<img src="image/4.png" class="dice6"></img>';
             break;
         case 5:
-            document.getElementById("image").innerHTML = '<img src="image/five.png" class="dice6"></img>';
+            document.getElementById("d6").innerHTML = '<img src="image/five.png" class="dice6"></img>';
             break;
         case 6:
-            document.getElementById("image").innerHTML = '<img src="image/6.png" class="dice6"></img>';
+            document.getElementById("d6").innerHTML = '<img src="image/6.png" class="dice6"></img>';
             break;
 
     }
@@ -33,22 +33,22 @@ function roll0() {
 
     switch (n) {
         case 1:
-            document.getElementById("image0").innerHTML = '<img src="image/1.png" class="dice6"></img>';
+            document.getElementById("d6_2").innerHTML = '<img src="image/1.png" class="dice6"></img>';
             break;
         case 2:
-            document.getElementById("image0").innerHTML = '<img src="image/two.png" class="dice6"></img>';
+            document.getElementById("d6_2").innerHTML = '<img src="image/two.png" class="dice6"></img>';
             break;
         case 3:
-            document.getElementById("image0").innerHTML = '<img src="image/3.png" class="dice6"></img>';
+            document.getElementById("d6_2").innerHTML = '<img src="image/3.png" class="dice6"></img>';
             break;
         case 4:
-            document.getElementById("image0").innerHTML = '<img src="image/four.png" class="dice6"></img>';
+            document.getElementById("d6_2").innerHTML = '<img src="image/four.png" class="dice6"></img>';
             break;
         case 5:
-            document.getElementById("image0").innerHTML = '<img src="image/5.png" class="dice6"></img>';
+            document.getElementById("d6_2").innerHTML = '<img src="image/5.png" class="dice6"></img>';
             break;
         case 6:
-            document.getElementById("image0").innerHTML = '<img src="image/six.png" class="dice6"></img>';
+            document.getElementById("d6_2").innerHTML = '<img src="image/six.png" class="dice6"></img>';
             break;
 
     }
@@ -90,22 +90,22 @@ function roll2() {
 
     switch (n) {
         case 1:
-            document.getElementById("image2").innerHTML = '<img src="image/one20.png" class="dice20"></img>';
+            document.getElementById("d20").innerHTML = '<img src="image/one20.png" class="dice20"></img>';
             break;
         case 2:
-            document.getElementById("image2").innerHTML = '<img src="image/two20.png" class="dice20"></img>';
+            document.getElementById("d20").innerHTML = '<img src="image/two20.png" class="dice20"></img>';
             break;
         case 3:
-            document.getElementById("image2").innerHTML = '<img src="image/three20.png" class="dice20"></img>';
+            document.getElementById("d20").innerHTML = '<img src="image/three20.png" class="dice20"></img>';
             break;
         case 4:
-            document.getElementById("image2").innerHTML = '<img src="image/four20.png" class="dice20"></img>';
+            document.getElementById("d20").innerHTML = '<img src="image/four20.png" class="dice20"></img>';
             break;
         case 5:
-            document.getElementById("image2").innerHTML = '<img src="image/five20.png" class="dice20"></img>';
+            document.getElementById("d20").innerHTML = '<img src="image/five20.png" class="dice20"></img>';
             break;
         case 6:
-            document.getElementById("image2").innerHTML = '<img src="image/six20.png" class="dice20"></img>';
+            document.getElementById("d20").innerHTML = '<img src="image/six20.png" class="dice20"></img>';
             break;
         case 7:
             document.getElementById("image2").innerHTML = '<img src="image/seven20.png" class="dice20"></img>';
